@@ -1,0 +1,29 @@
+# Compiled Arduino / PlatformIO / ESP binaries
+*.hex
+*.elf
+*.bin
+*.o
+*.d
+
+# Build directories
+build/
+output/
+.pio/
+.pioenvs/
+
+# Local sensitive configuration (ThingSpeak credentials, Wi-Fi keys)
+iot-version/config.h
+*.secret.h
+secrets.h
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
